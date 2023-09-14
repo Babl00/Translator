@@ -5,7 +5,7 @@ import subprocess
 # start 
 print("Welcome to Translator\n")
 # define content
-user = input(Fore.YELLOW+" [ * ] "+Fore.WHITE+"Enter text for translating : ")
+user = input(HI)
 # changing languege 
 options = Translator(from_lang='en', to_lang='persian')
 translate = options.translate(user)
